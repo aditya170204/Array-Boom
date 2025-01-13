@@ -29,13 +29,13 @@
 //   console.log(`${key} stands for  ${value}`);
 // }
 
-const myObj = {
-  game1: "NFS",
-  game2: "DHOOM-3",
-}; //                                    // THIS FOR-OF LOOP DON'T WORK IN OBJECTS BCZ THEY ARE NOT ITERABLE
-for (const [key, value] in myObj) {
-  //   console.log(key, ":-", value);
-}
+// const myObj = {
+//   game1: "NFS",
+//   game2: "DHOOM-3",
+// }; //                                    // THIS FOR-OF LOOP DON'T WORK IN OBJECTS BCZ THEY ARE NOT ITERABLE
+// for (const [key, value] in myObj) {
+//   //   console.log(key, ":-", value);
+// }
 
 /////////////////////////////////////                   FOR-IN LOOP               ////////////////////////////////////////////////////
 
