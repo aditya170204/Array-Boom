@@ -21,6 +21,14 @@ function arrSum(arr) {
 }
 console.log(arrSum([1, 2, 3, 14]));
 
+//.........3 different way to sum
+
+function summer(arr) {
+  const act = arr.reduce((sum, num) => sum + num, 0);
+  return act;
+}
+console.log(summer([1, 2, 3, 4, 10, 40, 9]));
+
 // 2. A function to find the largest number in an array.
 function findMax(arry) {
   let max = 0;
