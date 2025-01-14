@@ -337,5 +337,3 @@ function anagram2(arr) {
   return Object.values(serial);
 }
 console.log(anagram2(["eat", "tea", "tan", "ate", "nat", "bat"]), "this");
-
-// 9. a function to find non repeating element in array
